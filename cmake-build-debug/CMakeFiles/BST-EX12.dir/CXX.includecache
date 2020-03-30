@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../glutInterface/glutWindow.h
+iostream
+-
+string
+-
+cassert
+-
+cmath
+-
+GL/freeglut.h
+-
+GLUT/glut.h
+-
+
+/home/kwd/Desktop/c++ projects/BST-EX12/BST.h
+vector
+-
+algorithm
+-
+Nodes.h
+/home/kwd/Desktop/c++ projects/BST-EX12/Nodes.h
+cmath
+-
+
+/home/kwd/Desktop/c++ projects/BST-EX12/GUI.h
+BST.h
+/home/kwd/Desktop/c++ projects/BST-EX12/BST.h
+
+/home/kwd/Desktop/c++ projects/BST-EX12/Nodes.h
+
+/home/kwd/Desktop/c++ projects/BST-EX12/main.cpp
+iostream
+-
+Nodes.h
+/home/kwd/Desktop/c++ projects/BST-EX12/Nodes.h
+glutWindow.h
+-
+BST.h
+/home/kwd/Desktop/c++ projects/BST-EX12/BST.h
+GUI.h
+/home/kwd/Desktop/c++ projects/BST-EX12/GUI.h
+
